@@ -7,7 +7,6 @@ Traditional delta hedging assumes perfect liquidity and continuous rebalancing, 
 Deep Hedging replaces analytical formulas with data-driven neural networks capable of learning optimal dynamic hedging strategies directly from simulated market data.
 
 This project demonstrates how to:
-  * Simulate asset price paths using stochastic processes
   * Train a neural network to minimize portfolio risk or tail losses
   * Incorporate transaction cost models (fixed, proportional, etc.)
   * Evaluate hedging performance using profit and loss (PnL) distributions
@@ -16,7 +15,6 @@ This project demonstrates how to:
 
 Key Concepts:
   * Deep reinforcement learning for financial risk management
-  * Stochastic asset price simulation (Geometric Brownian Motion)
   * Neural network–based hedging policy optimization
   * Transaction cost modeling
   * Conditional Value-at-Risk (CVaR) optimization
