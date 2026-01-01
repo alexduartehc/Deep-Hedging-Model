@@ -34,13 +34,10 @@ Once trained, the model can output:
   * Learned hedge ratios across timesteps
 
 --------
-
+```text
 Deep-Hedging
-
 │
-
 ├── deep_hedging.py                   # Main Deep Hedging model implementation
-
 ├── README.md                         # Project documentation
-
 └── LICENSE
+```
